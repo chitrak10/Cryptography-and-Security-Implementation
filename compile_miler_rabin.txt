@@ -1,0 +1,2 @@
+gcc miller_rabin.c -o miller_rabin -lgmp
+./miller_rabin

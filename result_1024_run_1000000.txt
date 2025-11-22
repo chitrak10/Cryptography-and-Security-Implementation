@@ -1,0 +1,4 @@
+Partial results up to 1000000 iterations for 1024-bit primes:
+Minimum clock cycles: 4332638
+Maximum clock cycles: 1093673600
+Average clock cycles: 66574448.80

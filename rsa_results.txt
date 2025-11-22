@@ -1,0 +1,45 @@
+
+=== Processing 512-bit primes ===
+
+Step 2: Compute N and phi(N) for 512-bit primes
+Clock cycles: 5618
+
+Step 3: Public and Private Key Generation for 512-bit primes
+Clock cycles for computing d: 15961
+
+Step 4: Encryption for 512-bit primes (c = m^e mod N)
+Clock cycles: 63600
+
+Step 4: Decryption for 512-bit primes (m' = c^d mod N)
+Clock cycles: 727766
+Verification: Decryption successful (m == m') for 512-bit primes
+
+=== Processing 768-bit primes ===
+
+Step 2: Compute N and phi(N) for 768-bit primes
+Clock cycles: 1485
+
+Step 3: Public and Private Key Generation for 768-bit primes
+Clock cycles for computing d: 4786
+
+Step 4: Encryption for 768-bit primes (c = m^e mod N)
+Clock cycles: 100927
+
+Step 4: Decryption for 768-bit primes (m' = c^d mod N)
+Clock cycles: 2000828
+Verification: Decryption successful (m == m') for 768-bit primes
+
+=== Processing 1024-bit primes ===
+
+Step 2: Compute N and phi(N) for 1024-bit primes
+Clock cycles: 2359
+
+Step 3: Public and Private Key Generation for 1024-bit primes
+Clock cycles for computing d: 7032
+
+Step 4: Encryption for 1024-bit primes (c = m^e mod N)
+Clock cycles: 173280
+
+Step 4: Decryption for 1024-bit primes (m' = c^d mod N)
+Clock cycles: 4748965
+Verification: Decryption successful (m == m') for 1024-bit primes
